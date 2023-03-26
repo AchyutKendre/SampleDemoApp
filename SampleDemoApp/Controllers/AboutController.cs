@@ -2,13 +2,9 @@
 
 namespace SampleDemoApp.Controllers
 {
-    public class HomeController : Controller
+    public class AboutController : Controller
     {
         public IActionResult Index()
-        {
-            return View();
-        }
-        public IActionResult About()
         {
             return View();
         }
